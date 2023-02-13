@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      HTML Encoder / Decoder Developed by Ala GARBAA © www.AlaGARBAA.com
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="./styles/app.min.css" />
+  <body>
+    <main>
+      <header><h1>HTML Encoder / Decoder</h1></header>
+      <article>
+        <hr />
+        <label class="caption" for="input-code">Input</label>
+        <textarea name="input-code" id="input-code" cols="30" rows="5">
+<button>placeholder text</button></textarea
+        >
+        <div class="button-group">
+          <button onclick="onClickOnDecode()">Decode</button>
+          <button onclick="onClickOnEncode()">Encode</button>
+          <div class="checkbox-wrapper">
+            <input
+              type="checkbox"
+              name="clear-html-tags"
+              id="clear-html-tags"
+            />&nbsp;<label for="clear-html-tags">Clear HTML Tags</label>
+          </div>
+        </div>
+        <label class="caption" for="output-code">Output</label>
+        <textarea
+          name="output-code"
+          id="output-code"
+          cols="30"
+          rows="5"
+        ></textarea>
+        <footer>
+          Developed by Ala GARBAA ©
+          <a href="https://www.alagarbaa.com">www.AlaGARBAA.com</a>
+        </footer>
+      </article>
+    </main>
+    <script src="./scripts/main.min.js"></script>
+  </body>
+</html>
